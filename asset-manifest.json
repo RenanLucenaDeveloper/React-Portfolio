@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.cb4df394.css",
-    "main.js": "/React-Portfolio/static/js/main.7f6fd9d6.js",
+    "main.js": "/React-Portfolio/static/js/main.cb76f051.js",
     "static/media/sass.svg": "/React-Portfolio/static/media/sass.4180f987ce56f085a6dcd8579e1f3220.svg",
     "static/media/react.svg": "/React-Portfolio/static/media/react.ddd7445547228428b42d3285a4d509fb.svg",
     "static/media/instagram.svg": "/React-Portfolio/static/media/instagram.9218015eb5b831fd1771fd1e7c34f979.svg",
@@ -15,16 +15,17 @@
     "static/media/html5.svg": "/React-Portfolio/static/media/html5.84cefc457bdcc98a696f0e84de713a58.svg",
     "static/media/seta-para-cima.svg": "/React-Portfolio/static/media/seta-para-cima.fdc885d3a053d0244139e3129d4f705a.svg",
     "static/media/code-icon.svg": "/React-Portfolio/static/media/code-icon.23ff28c8ee14e4ecf33939f89db14af4.svg",
-    "static/media/copy-text-icon.svg": "/React-Portfolio/static/media/copy-text-icon.21d79578a2f36558d883db45a10c7cb1.svg",
+    "static/media/linkedin.svg": "/React-Portfolio/static/media/linkedin.758ab23e3e8ac52e7f173feed15200c6.svg",
     "index.html": "/React-Portfolio/index.html",
+    "static/media/copy-text-icon.svg": "/React-Portfolio/static/media/copy-text-icon.21d79578a2f36558d883db45a10c7cb1.svg",
     "static/media/bandeira.svg": "/React-Portfolio/static/media/bandeira.9952042bd2b951db1fe4d2ab94126ea0.svg",
     "static/media/vuejs.svg": "/React-Portfolio/static/media/vuejs.e90f7fa8de1314bf828e2f4bd241f4f0.svg",
     "static/media/seta.svg": "/React-Portfolio/static/media/seta.4eb3a6ddd4e0a0fe9b000b0f94b9ffa6.svg",
     "main.cb4df394.css.map": "/React-Portfolio/static/css/main.cb4df394.css.map",
-    "main.7f6fd9d6.js.map": "/React-Portfolio/static/js/main.7f6fd9d6.js.map"
+    "main.cb76f051.js.map": "/React-Portfolio/static/js/main.cb76f051.js.map"
   },
   "entrypoints": [
     "static/css/main.cb4df394.css",
-    "static/js/main.7f6fd9d6.js"
+    "static/js/main.cb76f051.js"
   ]
 }
