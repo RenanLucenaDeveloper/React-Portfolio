@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.cb4df394.css",
+    "main.js": "/React-Portfolio/static/js/main.7f6fd9d6.js",
+    "static/media/sass.svg": "/React-Portfolio/static/media/sass.4180f987ce56f085a6dcd8579e1f3220.svg",
+    "static/media/react.svg": "/React-Portfolio/static/media/react.ddd7445547228428b42d3285a4d509fb.svg",
+    "static/media/instagram.svg": "/React-Portfolio/static/media/instagram.9218015eb5b831fd1771fd1e7c34f979.svg",
+    "static/media/tres-pontos.svg": "/React-Portfolio/static/media/tres-pontos.5fb7f1f7ecc5cd517ed8b35393a88e65.svg",
+    "static/media/whatsapp.svg": "/React-Portfolio/static/media/whatsapp.83af05086258445b58fc5bbfa5d39214.svg",
+    "static/media/js.svg": "/React-Portfolio/static/media/js.a25efd353eed0c197b7dc33c4d3c98fe.svg",
+    "static/media/design-icon.svg": "/React-Portfolio/static/media/design-icon.2a1547ab666a56fc4ab750bc7056adb2.svg",
+    "static/media/github.svg": "/React-Portfolio/static/media/github.0e4262db2c07500c0e2278cbee4bd7c8.svg",
+    "static/media/telegram.svg": "/React-Portfolio/static/media/telegram.69f8e11745e9b02b512cb6475c2398ad.svg",
+    "static/media/css3.svg": "/React-Portfolio/static/media/css3.d8fa67420c12c9d615a03b1d23e53e53.svg",
+    "static/media/html5.svg": "/React-Portfolio/static/media/html5.84cefc457bdcc98a696f0e84de713a58.svg",
+    "static/media/seta-para-cima.svg": "/React-Portfolio/static/media/seta-para-cima.fdc885d3a053d0244139e3129d4f705a.svg",
+    "static/media/code-icon.svg": "/React-Portfolio/static/media/code-icon.23ff28c8ee14e4ecf33939f89db14af4.svg",
+    "static/media/copy-text-icon.svg": "/React-Portfolio/static/media/copy-text-icon.21d79578a2f36558d883db45a10c7cb1.svg",
+    "index.html": "/React-Portfolio/index.html",
+    "static/media/bandeira.svg": "/React-Portfolio/static/media/bandeira.9952042bd2b951db1fe4d2ab94126ea0.svg",
+    "static/media/vuejs.svg": "/React-Portfolio/static/media/vuejs.e90f7fa8de1314bf828e2f4bd241f4f0.svg",
+    "static/media/seta.svg": "/React-Portfolio/static/media/seta.4eb3a6ddd4e0a0fe9b000b0f94b9ffa6.svg",
+    "main.cb4df394.css.map": "/React-Portfolio/static/css/main.cb4df394.css.map",
+    "main.7f6fd9d6.js.map": "/React-Portfolio/static/js/main.7f6fd9d6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb4df394.css",
+    "static/js/main.7f6fd9d6.js"
+  ]
+}
