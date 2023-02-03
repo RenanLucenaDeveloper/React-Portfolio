@@ -14,14 +14,14 @@ const Trabalhos = () => {
       data: 'Julho - 2021',
       link: 'https://renanlucenadeveloper.github.io/Barbery/',
       nome: 'Barbery',
-      descricao: 'Modelo de site de uma joaleria fictícia. Demonstra habilidades Front End: Design Responsivo, Animações, dentre outras...',
+      descricao: 'Modelo de site de uma barbearia fictícia. Diferentes designs de acordo com os diferentes tamanhos de tela.',
       tecnologias: ['HTML', 'CSS', 'JavaScript', 'SASS', 'Web Design'],
     },
     {
       data: 'Junho - 2021',
       link: 'https://renanlucenadeveloper.github.io/File-Pages/',
       nome: 'File-Pages',
-      descricao: 'Modelo de site de uma joaleria fictícia. Demonstra habilidades Front End: Design Responsivo, Animações, dentre outras...',
+      descricao: 'Site feito para praticar javaScript quando estava começando a aprender manipulação do DOM.',
       tecnologias: ['HTML', 'CSS', 'JavaScript', 'SASS', 'Web Design'],
     },
   ]
