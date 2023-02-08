@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.cb4df394.css",
-    "main.js": "/React-Portfolio/static/js/main.cb76f051.js",
+    "main.js": "/React-Portfolio/static/js/main.ef5b348e.js",
     "static/media/sass.svg": "/React-Portfolio/static/media/sass.4180f987ce56f085a6dcd8579e1f3220.svg",
     "static/media/react.svg": "/React-Portfolio/static/media/react.ddd7445547228428b42d3285a4d509fb.svg",
     "static/media/instagram.svg": "/React-Portfolio/static/media/instagram.9218015eb5b831fd1771fd1e7c34f979.svg",
@@ -22,10 +22,10 @@
     "static/media/vuejs.svg": "/React-Portfolio/static/media/vuejs.e90f7fa8de1314bf828e2f4bd241f4f0.svg",
     "static/media/seta.svg": "/React-Portfolio/static/media/seta.4eb3a6ddd4e0a0fe9b000b0f94b9ffa6.svg",
     "main.cb4df394.css.map": "/React-Portfolio/static/css/main.cb4df394.css.map",
-    "main.cb76f051.js.map": "/React-Portfolio/static/js/main.cb76f051.js.map"
+    "main.ef5b348e.js.map": "/React-Portfolio/static/js/main.ef5b348e.js.map"
   },
   "entrypoints": [
     "static/css/main.cb4df394.css",
-    "static/js/main.cb76f051.js"
+    "static/js/main.ef5b348e.js"
   ]
 }
