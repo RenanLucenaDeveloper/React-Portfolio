@@ -1,4 +1,3 @@
-import React from 'react'
 import setaPraCimaSVG from '../img/seta-para-cima.svg'
 
 const Footer = () => {

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const TypeWriter = ({ text, mobile }) => {
+const TypeWriter = ({ text, mobile } : { text : string, mobile : boolean }) => {
   const index = React.useRef(0);
   const [currentText, setCurrentText] = React.useState('');
 

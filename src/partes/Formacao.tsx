@@ -12,7 +12,14 @@ import vuejsSVG from '../img/vuejs.svg'
 import Detalhes from './Detalhes'
 
 const Formacao = () => {
-  const linguagens = [
+	interface LinguagensObject {
+		alt: string;
+		img: string;
+	}
+
+	type LinguagensArray = Array<LinguagensObject>;
+
+  const linguagens : LinguagensArray = [
     {
       alt: 'HTML5',
       img: html5SVG,
@@ -39,7 +46,7 @@ const Formacao = () => {
     },
   ];
   const [detalhesEnabled, setDetalhesEnabled] = React.useState(false);
-  const [target, setTarget] = React.useState(null);
+  const [target, setTarget] = React.useState({} as EventTarget | null);
 
   return (
     <section id="Formacao">
@@ -75,7 +82,7 @@ const Formacao = () => {
                 </li>
                 <li className="item">
                     <h2 className="subtitulo">
-                        CSS Flexbox
+                        Typescript
                     </h2>
                     <p>
                         Origamid
@@ -86,7 +93,7 @@ const Formacao = () => {
                 </li>
                 <li className="item">
                     <h2 className="subtitulo">
-                        CSS Grid Layout
+                        ReactJS Completo
                     </h2>
                     <p>
                         Origamid
@@ -145,7 +152,7 @@ const Formacao = () => {
             </div>
         </div>
 
-        {detalhesEnabled && <Detalhes alt={target.alt} offsetTop={target.offsetTop} offsetLeft={target.offsetLeft}/>}
+        {detalhesEnabled && target instanceof HTMLImageElement && <Detalhes alt={target.alt} offsetTop={target.offsetTop} offsetLeft={target.offsetLeft}/>}
         
     </section>
   )

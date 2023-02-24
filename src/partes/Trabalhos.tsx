@@ -4,25 +4,25 @@ import bandeiraSVG from '../img/bandeira.svg'
 const Trabalhos = () => {
   const trabalhosArray = [
     {
-      data: 'Agosto - 2021',
-      link: 'https://renanlucenadeveloper.github.io/TRY-HARD/',
-      nome: 'Try-Hard',
-      descricao: 'Modelo de site de uma joaleria fictícia. Demonstra habilidades Front End: Design Responsivo, Animações, dentre outras...',
-      tecnologias: ['HTML', 'CSS', 'JavaScript', 'SASS', 'UI/UX Design'],
+      data: 'Janeiro - 2023',
+      link: 'https://renanlucenadeveloper.github.io/Lucyna/',
+      nome: 'Lucyna',
+      descricao: 'Loja fictícia de games feita com ReactJS e SASS, com e-commerce, só não ha a venda real.',
+      tecnologias: ['HTML', 'CSS', 'JavaScript', 'SCSS', 'React'],
     },
     {
       data: 'Julho - 2021',
       link: 'https://renanlucenadeveloper.github.io/Barbery/',
       nome: 'Barbery',
-      descricao: 'Modelo de site de uma barbearia fictícia. Diferentes designs de acordo com os diferentes tamanhos de tela.',
+      descricao: 'Modelo de site de uma barbearia. Demonstra habilidades Front End sem nenhum framework e extremamente otimizado.',
       tecnologias: ['HTML', 'CSS', 'JavaScript', 'SASS', 'Web Design'],
     },
     {
-      data: 'Junho - 2021',
-      link: 'https://renanlucenadeveloper.github.io/File-Pages/',
-      nome: 'File-Pages',
-      descricao: 'Site feito para praticar javaScript quando estava começando a aprender manipulação do DOM.',
-      tecnologias: ['HTML', 'CSS', 'JavaScript', 'SASS', 'Web Design'],
+      data: 'Agosto - 2021',
+      link: 'https://renanlucenadeveloper.github.io/TRY-HARD/',
+      nome: 'Try-Hard',
+      descricao: 'Modelo de site de uma joaleria fictícia. Demonstra habilidades Front End: Design Responsivo, Animações, dentre outras...',
+      tecnologias: ['HTML', 'CSS', 'JavaScript', 'SASS', 'UI/UX Design'],
     },
   ]
   return (

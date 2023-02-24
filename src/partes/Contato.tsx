@@ -12,15 +12,15 @@ const Contato = () => {
     email: 'ReenanDeveloper@hotmail.com',
     numero: '(11) 96568-3640',
   }
+
   const [detalhesEnabled, setDetalhesEnabled] = React.useState(false);
-  const [target, setTarget] = React.useState(null);
-  const [notificacao, setNotificacao] = React.useState(null);
-  const timeoutRef = React.useRef();
+  const [target, setTarget] = React.useState({} as EventTarget | null);
+  const [notificacao, setNotificacao] = React.useState('' as string | null);
+  const timeoutRef = React.useRef({} as NodeJS.Timeout);
   const userMobile = React.useContext(MobileContext);
 
-  console.log(userMobile.isMobile);
-
-  function copiarParaClipboard(text, type) {
+  function copiarParaClipboard(text : string, type : string) {
+    console.log(text)
     setNotificacao(`${type} copiado`);
     navigator.clipboard.writeText(text);
     clearTimeout(timeoutRef.current);
@@ -38,12 +38,12 @@ const Contato = () => {
         <h2 className="subtitulo">
             Email
         </h2>
-        <p>{dados.email}<img src={copyTextSVG} alt="Copiar Email" className="copiar" id={dados.email} onClick={() => copiarParaClipboard(target.id, 'Email')} onMouseEnter={({ target }) => { setTarget(target); setDetalhesEnabled(true)}} onMouseLeave={() =>{ setTarget(null); setDetalhesEnabled(false)}}/></p>
+        <p>{dados.email}<img src={copyTextSVG} alt="Copiar Email" className="copiar" id={dados.email} onClick={() => copiarParaClipboard(dados.email, 'Email')} onMouseEnter={({ target }) => { setTarget(target); setDetalhesEnabled(true)}} onMouseLeave={() =>{ setTarget(null); setDetalhesEnabled(false)}}/></p>
 
         <h2>
             Whatsapp / Telegram
         </h2>
-        <p>{dados.numero}<img src={copyTextSVG} alt="Copiar Número" className="copiar" id={dados.numero} onClick={({ target }) => copiarParaClipboard(target.id, 'Número')} onMouseEnter={({ target }) => { setTarget(target); setDetalhesEnabled(true)}} onMouseLeave={() =>{ setTarget(null); setDetalhesEnabled(false)}}/></p>
+        <p>{dados.numero}<img src={copyTextSVG} alt="Copiar Número" className="copiar" id={dados.numero} onClick={() => copiarParaClipboard(dados.numero, 'Número')} onMouseEnter={({ target }) => { setTarget(target); setDetalhesEnabled(true)}} onMouseLeave={() =>{ setTarget(null); setDetalhesEnabled(false)}}/></p>
     </div>
 
     <div>
@@ -69,7 +69,7 @@ const Contato = () => {
     </div>
 
     {/* Mostrar os detalhes (descrição) */} 
-    {!userMobile.isMobile && detalhesEnabled && <Detalhes alt={target.alt} offsetTop={target.offsetTop} offsetLeft={target.offsetLeft}/>}
+    {!userMobile.isMobile && detalhesEnabled && target instanceof HTMLImageElement && <Detalhes alt={target.alt} offsetTop={target.offsetTop} offsetLeft={target.offsetLeft}/>}
 
     {/* Mostrar a notificação */}
     {notificacao && <div className={`notificacao`}>{notificacao}</div>}
